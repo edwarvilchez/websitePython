@@ -2,7 +2,7 @@
 from flask import Flask
 from flask import render_template
 
-#  archivo principal
+#  archivo principal/arranca el proyecto
 app = Flask(__name__)
 
 #  creamos las rutas usando la variable app
@@ -21,4 +21,7 @@ def contact():
 #  activamos el servidor
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+#   para visualizar en el navegador localhost:5000
 
